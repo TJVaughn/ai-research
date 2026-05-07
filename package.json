@@ -1,0 +1,25 @@
+{
+  "name": "ai-research-tool",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "air": "./dist/cli.js"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "help": "tsx src/cli.ts --help",
+    "build": "tsup src/cli.ts --format esm --minify",
+    "start": "node dist/cli.js"
+  },
+  "dependencies": {
+    "jsonrepair": "^3.13.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsup": "^8.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.6.0"
+  }
+}

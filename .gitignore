@@ -1,0 +1,13 @@
+node_modules/
+dist/
+
+# Local runs / logs (may contain sensitive prompts/outputs)
+*.jsonl
+
+# Env files
+.env
+.env.*
+
+# OS/editor junk
+.DS_Store
+*.log
