@@ -18,7 +18,7 @@ export ANTHROPIC_API_KEY="..."
 Optional model selection:
 
 ```bash
-export OPENAI_MODEL="gpt-4.1-mini"
+export OPENAI_MODEL="gpt-5.4-mini"
 export CLAUDE_MODEL="claude-sonnet-4-6"
 ```
 
