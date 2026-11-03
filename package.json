@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "jsonrepair": "^3.13.0",
-    "zod": "^4.0.0"
+    "zod": "^4.6.6"
   },
   "devDependencies": {
     "@types/node": "^24.0.0",
